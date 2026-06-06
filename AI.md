@@ -33,9 +33,10 @@ https://huggingface.co/
 ```
 - 텐서(Tensor)는 PyTorch의 핵심 자료형이며, GPU 가속 지원
 
-**:white_check_mark: 경사하강법 (Gradient Descent)** 
+**:white_check_mark: 경사하강법 (Gradient Descent)**   
 :bulb: 손실(Loss)을 최소화하기 위해 파라미터를 조정하는 알고리즘  
 - 모델이 **손실이 줄어드는 방향(기울기의 음의 방향)**으로 이동하며 학습  
+
 **:small_blue_diamond: 핵심 절차**  
 1. 예측 계산 → `Yp = W * X + B`  
 2. 손실 계산 → `(Yp - Y)²` 평균(MSE)  
