@@ -504,10 +504,10 @@ hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  # HSV 변환
   
 **1. Anchor Target Generation**  
 - 여러 크기의 Anchor Box를 생성하여 객체 위치 예측
-- 
+
 **2. GT(Ground Truth) 박스와 IOU(Intersection Over Union) 계산**  
 - 실제 객체의 위치와 예측된 Anchor Box 간의 IOU 값을 계산하여 최적의 박스를 선택
-- 
+
 **3. Proposal 생성**  
 - 최적화된 후보 영역을 선별하여 객체 검출 수행  
 
